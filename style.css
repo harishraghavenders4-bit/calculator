@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1e1e2f;
+}
+
+.calculator {
+    background: #2c2c3c;
+    padding: 20px;
+    border-radius: 15px;
+    width: 320px;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    flex: 1 0 22%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #666;
+}
+
+.equal {
+    background: #ff9500;
+}
+
+.equal:hover {
+    background: #e08900;
+}
+
+.zero {
+    flex: 1 0 48%;
+}
+
+/*  Responsive */
+@media (max-width: 500px) {
+    .calculator {
+        width: 90%;
+    }
+
+    #display {
+        font-size: 20px;
+    }
+
+    button {
+        height: 45px;
+        font-size: 16px;
+    }
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1e1e2f;
+}
+
+.calculator {
+    background: #2c2c3c;
+    padding: 20px;
+    border-radius: 15px;
+    width: 320px;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    flex: 1 0 22%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #666;
+}
+
+.equal {
+    background: #ff9500;
+}
+
+.equal:hover {
+    background: #e08900;
+}
+
+.zero {
+    flex: 1 0 48%;
+}
+
+/*  Responsive */
+@media (max-width: 500px) {
+    .calculator {
+        width: 90%;
+    }
+
+    #display {
+        font-size: 20px;
+    }
+
+    button {
+        height: 45px;
+        font-size: 16px;
+    }
+}
